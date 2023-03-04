@@ -11,7 +11,7 @@ const router = Router(); //es el manejador de las rutas, las interpreta, con est
 router.get('/', getItems);
 router.get('/:id', getItem);
 router.post("/",postItem);
-router.put(":/id",updateItem);
+router.put("/:id",updateItem);
 router.delete("/:id",deleteItem);
 
 export {router};
